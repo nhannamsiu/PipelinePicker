@@ -209,6 +209,7 @@
 				227A55D123D0074600C03F5D /* Sources */,
 				227A55D223D0074600C03F5D /* Frameworks */,
 				227A55D323D0074600C03F5D /* Resources */,
+				2281318C23D056F9003AE6CE /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -261,6 +262,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2281318C23D056F9003AE6CE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		227A55D123D0074600C03F5D /* Sources */ = {
@@ -434,7 +456,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.namececec.PipelinePicker;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -461,7 +483,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.namececec.PipelinePicker;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
