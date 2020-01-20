@@ -280,6 +280,7 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "
+
 ";
 		};
 /* End PBXShellScriptBuildPhase section */
